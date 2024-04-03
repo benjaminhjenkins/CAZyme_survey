@@ -35,5 +35,5 @@ for d in $b/domains/*
 do
          cd $d && cut -f 1 output.tab > output.tab.hits
          faSomeRecords $a output.tab.hits output.fas
-         cd ~/CAZyme_survey        
+         cd ~/CAZyme_survey      
 done
