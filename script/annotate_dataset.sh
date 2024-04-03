@@ -4,7 +4,7 @@ a=/YOUR_DATASET_PATH
 b=outputs/YOUR_OUTPUT_NAME
 c="outputs/YOUR_OUTPUT_NAME"
 
-# Run dbCAN #
+# Run dbCAN on your sequence dataset (specify protein or nucleotide dataset) #
 
 run_dbcan $a protein --out_dir $b
 
