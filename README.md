@@ -1,4 +1,4 @@
-# CAZYy-survey
+# CAZyme_survey
 For the identification and evolutionary reconstruction of all carbohydrate acting enzymes (CAZymes) in an organism
 
 ## Install dependencies
