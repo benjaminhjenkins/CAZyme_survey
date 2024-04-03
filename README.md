@@ -1,2 +1,2 @@
 # CAZYy-survey
-For the identification and evolutionary reconstruction of all carbohydrate acting enzymes (CAZymes) in a sequence dataset
+For the identification and evolutionary reconstruction of all carbohydrate acting enzymes (CAZymes) in an organism
