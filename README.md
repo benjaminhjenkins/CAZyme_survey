@@ -32,8 +32,10 @@ Next, edit "02_search_for_homologues" to set the path for your broader sequence 
 
 ` bash 02_search_for_homologues `
 
+This will take several hours to several days to run depending on the number of annotated CAZY gene families identified. 
+
 Finally, edit "03_build_trees" to set the conditions for your sequence filtering and alignment trimming, and the number of bootstraps for your tree building. Once updated, run this final script.
 
 ` bash 03_build_trees `
 
-This will take anywhere from several days to several weeks to run depending on the size of your generated alignments. Once complete, you will have phylogenies outlining a rough evolutionary history (at the taxonomic level of your choice) of every identifiable CAZyme in your initial sequence dataset. 
+This will take anywhere from several days to several weeks to run depending on the size of your previously generated alignments. Once complete, you will have phylogenies outlining a rough evolutionary history (at the taxonomic level of your choice) of every identifiable CAZyme in your initial sequence dataset. 
