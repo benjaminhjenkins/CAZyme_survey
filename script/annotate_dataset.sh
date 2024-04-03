@@ -4,6 +4,9 @@ a=/YOUR_DATASET_PATH
 b=outputs/YOUR_OUTPUT_NAME
 c="outputs/YOUR_OUTPUT_NAME"
 
+mkdir ~/CAZyme_survey
+cd ~/CAZyme_survey
+
 # Run dbCAN on your sequence dataset (specify protein or nucleotide dataset) #
 
 run_dbcan $a protein --out_dir $b
@@ -32,5 +35,5 @@ for d in $b/domains/*
 do
          cd $d && cut -f 1 output.tab > output.tab.hits
          faSomeRecords $a output.tab.hits output.fas
-         cd ~/run_dbcan        
+         cd ~/CAZyme_survey        
 done
